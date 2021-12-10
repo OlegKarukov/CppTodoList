@@ -29,5 +29,4 @@ private:
     time_t CreateTime;
     TaskStatus status = ACTIVE;
 };
-
 #endif //UNTITLED_TASK_H

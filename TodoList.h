@@ -12,6 +12,7 @@ class TodoList {
     vector<Task> tasks;
 
 public:
+
     bool addTask(Task task);
 
     void completeTask(Task task);
@@ -20,6 +21,7 @@ public:
 
     vector<Task> resolvedTasks();
 
+    Task operator[](int i);
 };
 
 #endif //UNTITLED_TODOLIST_H
